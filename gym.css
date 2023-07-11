@@ -1,0 +1,501 @@
+.back {
+    background-image: url(GYM.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.back .overlay {
+    background: #171819;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.85;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+}
+
+.header .left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 100px;
+    height: 80px;
+}
+
+.left div {
+    line-height: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 29px auto;
+}
+
+.right .btn {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.icon i {
+    color: white;
+    padding-right: 30px;
+    font-weight: bolder;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.middle p {
+    color: #7f8c8d;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+}
+
+.middle h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.middle .btn1 {
+    margin-top: 2rem;
+}
+
+.middle .btn1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.middle .btn1 a.simple {
+    color: #fff;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+}
+
+.middle .btn1 a.simple:hover {
+    color: #ff5733;
+}
+
+.middle .btn1 a.border {
+    color: #ff5733;
+    border: 1px solid #ff5733;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+    border-radius: 3px;
+}
+
+.middle .btn1 a.border:hover {
+    background-color: #fff;
+    border: 1px solide #fff;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: #171819;
+    padding-left: 10rem;
+}
+
+.container .one {
+    padding: 40px;
+    width: 45%;
+    align-items: center;
+    display: list-item;
+}
+
+.container .one .form-group input {
+    text-align: center;
+    display: block;
+    width: 350px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+    border-width: 4px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.container .one .form-group input:hover {
+    background-color: grey;
+}
+
+.container .one button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.container .two {
+    width: 45%;
+    border-left: 1px solid#666262;
+    padding-left: 6rem;
+}
+
+.container .two h3 {
+    color: #fff;
+    line-height: normal;
+    font-size: 2rem;
+}
+
+.container .two h4,
+h5 {
+    color: #fff;
+    line-height: normal;
+    font-size: 1.2rem;
+}
+
+.container .two p {
+    color: #666262;
+    line-height: normal;
+    font-size: 1rem;
+}
+
+.trainer {
+    background-color: #7f8c8d;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer .about {
+    width: 39%;
+}
+
+.trainer .people {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trainer .about h2 {
+    color: black;
+    font-size: 2rem;
+    padding-bottom: 1.8rem;
+}
+
+.trainer .about p {
+    color: black;
+    font-size: 1rem;
+}
+
+.trainer .people .team1 {
+    width: 45%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.trainer .people .team1 .img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.trainer .people .team1 .teamDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.trainer .people .team1 .teamDetails h6 {
+    color: black;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.trainer .people .team2 {
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    background: #fff;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.trainer .people .team2 .img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.class {
+    background-color: grey;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.calculator {
+    background-color: rgb(185, 183, 183);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+.calculator h2 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.calculator h2:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.calculator input[type="number"],
+.calculator select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.calculator button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff5733;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.calculator button:hover {
+    background-color: #ff5733cc;
+    transform: scale(1.1);
+}
+
+.calculator button:hover span {
+    font-size: 50%;
+}
+
+.calculator button span {
+    display: inline-block;
+    width: 100%;
+}
+
+.calculator #result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-us {
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.735);
+}
+
+.container2 {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container2 h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 1rem;
+    color: white;
+}
+
+.container2 h2:hover {
+    text-decoration: underline;
+    color: #666262;
+}
+
+.container2 p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.contact {
+    background-color: black;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact .form,
+.contact .map {
+    width: 45%;
+}
+
+.contact .form h2 {
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.contact .form h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #666262;
+
+}
+
+.contact .form .submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.contact textarea {
+    height: 150px;
+}
+
+.contact a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5733;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact a:hover {
+    background-color: #ff5733cc;
+    transform: scale(1.1);
+}
+
+.contact .map iframe {
+    width: 100%;
+}
+
+.contact .map h2 {
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.contact .map h2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #666262;
+}
+
+.contact .map p {
+    line-height: normal !important;
+    margin-top: -8px !important;
+    position: relative;
+    top: -9px;
+    color: whitesmoke;
+}
+
+.contact .map p:hover {
+    text-decoration: underline;
+}
